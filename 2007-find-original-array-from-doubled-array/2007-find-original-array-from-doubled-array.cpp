@@ -19,7 +19,6 @@ public:
             if(changed[i]>50000){
                 return {};
             }
-            // cout<<changed[i]<<" "<<hash[changed[i]]<<endl;
             if(hash[changed[i]]==0){
                 i++;
                 
